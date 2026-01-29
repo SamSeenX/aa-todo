@@ -1,1 +1,4 @@
-[{"task": "samss", "done": false}]
+[
+  { "task": "samss", "done": false },
+  { "task": "Test Task", "done": false }
+]

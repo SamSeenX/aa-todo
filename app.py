@@ -1,3 +1,7 @@
+import json
+
+TODO_FILE = "todos.json"
+
 def mark_done():
     todos = load_todos()
     list_todos()
@@ -45,3 +49,6 @@ def add_todo():
     todos.append({"task": task, "done": False})
     save_todos(todos)
     print("Task added!")
+
+if __name__ == "__main__":
+    main()
